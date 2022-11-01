@@ -4,12 +4,17 @@
 .inner {
   position: relative;
   width: 95.48%;
-  height: 530px;
   margin-top: 100px;
   margin-right: 4.52%;
 }
 
-.inner img {
+.inner::before {
+  content: "";
+  display: block;
+  padding-top: 43.95%;
+}
+
+.top-service-img {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -23,7 +28,6 @@
   right: 0%;
   z-index: 10;
   width: 72.72%;
-  height: 400px;
   background-color: #F0F7FC;
 }
 
@@ -54,7 +58,6 @@
   right: unset;
   z-index: 10;
   width: 72.72%;
-  height: 400px;
   background-color: #F0F7FC;
 }
 

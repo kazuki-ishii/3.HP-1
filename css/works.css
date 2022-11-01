@@ -21,16 +21,9 @@
   padding-bottom: 100px;
 }
 
-.works-detail h2 {
+.works-detail-text {
   width: 100%;
-  font-size: unset;
-  padding: 10px 0 10px;
-  margin: unset;
-}
-
-.works-detail p {
-  width: 100%;
-  font-size: unset;
+  font-size: 1.6rem;
   padding: 10px 0 10px;
   margin: unset;
 }
@@ -44,4 +37,8 @@
   background-color: #0070E9;
   color: #fff;
   margin: 0 auto;
+}
+
+.page-count-text {
+  font-size: 2rem;
 }

@@ -34,15 +34,15 @@
           <a href="./recruit.html">採用情報</a>
         </li>
         <li class="header-nav__list__item">
-          <a href="#main" class="contact_button">　　お問い合わせ ＞　</a>
+          <a href="#main" class="contact_button button">　　お問い合わせ ＞　</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="main" id="main">
     <section class="top" id="top">
-      <div class="top-wrapper">
-        <img src="../img/AMEMAN51023_TP_V 1.png" class="top-wrapper-img" alt="">
+      <div class="top-wrapper-1">
+        <img src="../img/AMEMAN51023_TP_V 1.png" class="top-img" alt="">
         <h1 class="top-wrapper__ttl ttl__1">お問い合わせ</h1>
       </div>
     </section>
@@ -50,11 +50,11 @@
       <div class="telephone-wrapper inner">
         <div class="telephone-detail">
           <div class="telephone-detail-left">
-            <p class="text">お電話でのお問い合わせ</p>
+            <p class="telephone-detail-text">お電話でのお問い合わせ</p>
           </div>
           <div class="telephone-detail-right">
-            <p class="tell">123-4567-8900</p>
-            <p class="text">電話受付：9:00～17:00</p>
+            <p class="telephone-detail-number">123-4567-8900</p>
+            <p class="telephone-detail-text">電話受付：9:00～17:00</p>
           </div>
         </div>        
       </div>
@@ -62,24 +62,24 @@
     <section class="contact section" id="form">
       <div class="contact-wrapper inner">
         <div class="contact-content">
-          <p class="text-1">フォームからお問い合わせ</p>
-          <p class="text-2">すべての項目を入力した上で送信ボタンを押してください。</p>
+          <p class="contact-text-1">フォームからお問い合わせ</p>
+          <p class="contact-text-2">すべての項目を入力した上で送信ボタンを押してください。</p>
           <form class="contact-form" method="post">
             <div class="contact-form__item item-1">
-              <label for="name">氏名</label>
-              <input type="text" id="name" name="user_name">
+              <label for="name" class="contact-form-label">氏名</label>
+              <input type="text" id="name" name="user_name" class="contact-form-input">
             </div>
             <div class="contact-form__item item-1">
-              <label for="mail">メールアドレス</label>
-              <input type="email" id="mail" name="user_mail">
+              <label for="mail" class="contact-form-label">メールアドレス</label>
+              <input type="email" id="mail" name="user_mail" class="contact-form-input">
             </div>
             <div class="contact-form__item item-1">
-              <label for="tel">電話番号</label>
-              <input type="tel" id="tel" name="user_tel">
+              <label for="tel" class="contact-form-label">電話番号</label>
+              <input type="tel" id="tel" name="user_tel" class="contact-form-input">
             </div>
             <div class="contact-form__item item-2">
-              <label for="msg">問い合わせ内容</label>
-              <textarea id="msg" name="user_message"></textarea>
+              <label for="msg" class="contact-form-label">問い合わせ内容</label>
+              <textarea id="msg" name="user_message" class="contact-form-textarea"></textarea>
             </div>
             <div class="contact-form__btn">
               <button class="contact-form__btn__submit" type="submit">送信</button>
@@ -93,33 +93,35 @@
     <div class="footer-wrapper">
       <div class="footer-upper">
         <div class="footer-upper-left">
-          <img src="../img/logo.png" alt="">
-          <p>〒012-3456</p>
-          <h2>神奈川県〇〇〇〇〇〇〇〇〇〇〇〇</h2>
+          <div class="footer-access-info">
+            <img src="../img/logo.png" class="footer-img" alt="">
+            <p class="post-code">〒012-3456</p>
+            <h2 class="address">神奈川県〇〇〇〇〇〇〇〇〇〇〇〇</h2>
+          </div>
         </div>
         <div class="footer-upper-center">
           <ul class="footer-nav__list">
             <li class="footer-nav__list__item">
-              <a href="../index.html">ホーム</a>
+              <a href="#home">ホーム</a>
             </li>
             <li class="footer-nav__list__item">
-              <a href="./business.html">事業内容</a>
+              <a href="./html/business.html">事業内容</a>
             </li>
             <li class="footer-nav__list__item">
-              <a href="./works.html">施工事例</a>
+              <a href="./html/works.html">施工事例</a>
             </li>
           </ul>
         </div>
         <div class="footer-upper-right">
           <ul class="footer-nav__list">
             <li class="footer-nav__list__item">
-              <a href="./company.html">会社内容</a>
+              <a href="./html/company.html">会社内容</a>
             </li>
             <li class="footer-nav__list__item">
-              <a href="./recruit.html">採用情報</a>
+              <a href="./html/recruit.html">採用情報</a>
             </li>
             <li class="footer-nav__list__item">
-              <a href="#main">お問い合わせ</a>
+              <a href="./html/contact.html">お問い合わせ</a>
             </li>
           </ul>
         </div>
