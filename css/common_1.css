@@ -11,6 +11,9 @@ html {
 
 body {
   line-height: 1.5;
+  max-width: 1800px;
+/*  width: 100%;*/
+  margin: 0 auto;
   word-break: break-all;
   color: #333;
   background-color: #fff;
@@ -29,9 +32,11 @@ hr {
 }
 
 .header, .main, .footer {
-  width: 1263px;
+/*  width: 1263px;*/
+  width: 100%;
   margin: 0 auto;
 }
+
 
 .ttl__1 {
   text-align: center;
@@ -52,7 +57,7 @@ hr {
 /************************************/
 /*              header              */
 /************************************/
-.header {
+/*.header {
   position: fixed;
   display: flex;
   align-items: center;
@@ -60,6 +65,19 @@ hr {
   left: 50%;
   transform: translate(-50%, 0);
   margin: 16px 0;
+}
+*/
+
+.header-wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 16px 0;
+  max-width: 1800px;
+  width: 100%;
 }
 
 .header-logo {

@@ -23,7 +23,8 @@
 .top-wrapper-2::before {
   content: "";
   display: block;
-  padding-top: 26.80%;
+  padding-top: 386px;
+/*  padding-top: 26.80%;*/
 }
 
 .top-detail {
@@ -37,6 +38,7 @@
   transform: translate(-50%, 0%);
   z-index: 90;
   width: 72.72%;
+  min-height: 365px;
   background-color: #fff;
 }
 
